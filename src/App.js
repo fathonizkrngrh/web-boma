@@ -1,22 +1,19 @@
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import logo from "./assets/logo/logo.png";
+import TentangBoma from "./components/TentangBoma";
 
 function App() {
-  // const data = {
-  //   hero: {
-  //     appType: "Food app",
-  //     tagLine: "Why stay hungry when you can order from Bella Onojie",
-  //     description: "Download the bella onoje’s food app now on",
-  //     mainActionText: "Playstore",
-  //     extraActionText: "App Store",
-  //   },
-  // };
+  const data = {
+    tentangBoma:
+      "Badan Olahraga mahasiswa (BOMA) merupakan Unit Kegiatan Mahasiswa yang bergerak dibidang olahraga. BOMA juga merupakan tempat bagi mahasiswa-mahasiswi dalam menyalurkan minat, bakat, dan potensinya di bidang olahraga.",
+  };
   return (
     <div className="App">
       <NavBar logo={logo}></NavBar>
       <Hero></Hero>
-      {/* <div className="h-[1000px] bg-main"></div> */}
+      <TentangBoma tentangBoma={data.tentangBoma}></TentangBoma>
+      <div className="h-[1000px] bg-main"></div>
     </div>
   );
 }

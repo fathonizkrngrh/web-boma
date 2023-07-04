@@ -5,7 +5,7 @@ import heroImage from "../assets/landingPage/landing.png";
 function Hero() {
   return (
     <div>
-      <div className="relative lg:pt-40 pt-32 lg:py-10 py-6 max-w-7xl mx-auto ">
+      <div className="relative lg:pt-40 pt-32 lg:py-10 py-6 max-w-7xl mx-auto lg:px-4 px-8">
         <div className="">
           <div className="flex">
             <p className="sm:text-lg md:text-xl lg:text-2xl text-md">
@@ -18,10 +18,10 @@ function Hero() {
           </p>
         </div>
         <div className="absolute -top-20 right-0 -z-10">
-          <div className="bg-fixed font-bold text-[250px] h-auto text-right text-stroke">
-            <p className="h-[200px]">BOMA</p>
-            <p className="h-[200px]">BOMA</p>
-            <p className="h-[200px]">BOMA</p>
+          <div className="bg-fixed font-bold lg:text-[250px] text-[100px] h-auto text-right text-stroke">
+            <p className="lg:h-[200px] h-[100px]">BOMA</p>
+            <p className="lg:h-[200px] h-[100px]">BOMA</p>
+            <p className="lg:h-[200px] h-[100px]">BOMA</p>
           </div>
         </div>
       </div>
