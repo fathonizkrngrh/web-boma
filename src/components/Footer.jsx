@@ -28,7 +28,9 @@ const Footer = () => {
             <div className="lg:mt-0  mt-10  lg:text-right text-center ">
               <p className="font-medium lg:text-xl text-sm t">Contact Person</p>
               <p className="text-lg mt-4">Email : bomaupicibiru@gmail.com</p>
-              <p className="text-lg mt-2">Whatsapp : +62 85795701564</p>
+              <p className="text-lg mt-2">
+                Whatsapp : +62 85795701564 (Wahdini)
+              </p>
               <p className="text-lg mt-2">Instagram : @bomaupicibiru</p>
             </div>
           </div>
