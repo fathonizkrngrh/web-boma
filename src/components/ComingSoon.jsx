@@ -2,7 +2,7 @@ import React from "react";
 
 const ComingSoon = ({ image, soon }) => {
   return (
-    <div className=" flex justify-center items-center text-center py-40 ">
+    <div className=" flex justify-center items-center text-center py-40 bg-slate-200">
       <div className=" flex-col justify-center">
         <div className=" flex justify-center">
           <img className=" lg:w-2/5 w-1/2" src={image} alt="soon" />

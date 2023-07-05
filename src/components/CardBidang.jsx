@@ -2,7 +2,7 @@ import React from "react";
 
 const CardBidang = ({ content, name, img }) => {
   return (
-    <div className="flex justify-between flex-col  pt-12 rounded-[20px]  max-w-80 md:mr-10 sm:mr-5 mr-0 my-5 feedback-card transition ease-in-out delay-150 duration-700 bg-white hover:text-white">
+    <div className="flex justify-between flex-col  pt-12 rounded-[20px]  max-w-80 md:mx-4 sm:mx-2 mx-0 my-5 feedback-card transition ease-in-out delay-150 duration-700 bg-white hover:text-white">
       <img
         src={img}
         alt="icons"
