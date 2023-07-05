@@ -1,19 +1,22 @@
-import Hero from "./components/Hero";
-import NavBar from "./components/NavBar";
+import { Route, Routes } from "react-router-dom";
 import logo from "./assets/logo/logo.png";
-import TentangBoma from "./components/TentangBoma";
+import Navbar from "./components/NavBar";
+import Home from "./pages/Home";
+import Soon from "./pages/ComingSoon";
 
 function App() {
-  const data = {
-    tentangBoma:
-      "Badan Olahraga mahasiswa (BOMA) merupakan Unit Kegiatan Mahasiswa yang bergerak dibidang olahraga. BOMA juga merupakan tempat bagi mahasiswa-mahasiswi dalam menyalurkan minat, bakat, dan potensinya di bidang olahraga.",
-  };
   return (
-    <div className="App">
-      <NavBar logo={logo}></NavBar>
-      <Hero></Hero>
-      <TentangBoma tentangBoma={data.tentangBoma}></TentangBoma>
-      <div className="h-[1000px] bg-main"></div>
+    <div className="w-full overflow-hidden block">
+      <Navbar logo={logo}></Navbar>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path="/pengurus" element={<Soon page="Pengurus" />} />
+          <Route path="/tentang-kami" element={<Soon page="Tentang Kami" />} />
+          <Route path="/artikel" element={<Soon page="Artikel" />} />
+          <Route path="/kegiatan" element={<Soon page="Kegiatan" />} />
+        </Route>
+      </Routes>
     </div>
   );
 }

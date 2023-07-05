@@ -14,4 +14,13 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgba(12, 67, 135, 0.2);
   }
+
+  .feedback-container .feedback-card:last-child {
+    margin-right: 0px;
+  }
+
+  .feedback-card:hover {
+    background: rgba(12, 67, 135, 0.8);
+    box-shadow: 0 25px 50px -12px rgba(12, 67, 135, 0.2);
+  }
 }

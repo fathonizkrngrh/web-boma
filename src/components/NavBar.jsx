@@ -27,25 +27,25 @@ const Navbar = ({ logo }) => {
                   Beranda
                 </a>
                 <a
-                  href="/"
+                  href="/tentang-kami"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Tentang Kami
                 </a>
                 <a
-                  href="/"
+                  href="/pengurus"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Pengurus
                 </a>
                 <a
-                  href="/"
+                  href="/artikel"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Artikel
                 </a>
                 <a
-                  href="/"
+                  href="/kegiatan"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Kegiatan
@@ -114,7 +114,7 @@ const Navbar = ({ logo }) => {
             Beranda
           </a>
           <a
-            href="/"
+            href="/tentang-kami"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Tentang Kami
@@ -126,13 +126,13 @@ const Navbar = ({ logo }) => {
             Pengurus
           </a>
           <a
-            href="/"
+            href="/artikel"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Artikel
           </a>
           <a
-            href="/"
+            href="/kegiatan"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Kegiatan
