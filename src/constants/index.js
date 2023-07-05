@@ -2,35 +2,33 @@ import { basket, fist, shuttlecock, volley, soccer } from "../assets";
 
 export const bidangs = [
   {
-    id: "feedback-1",
-    content:
-      "Shopping with WALLETECH is even more secure thanks to Buyer Protection.",
-    name: "Always Protected",
+    id: "bidang-1",
+    content: "Bertempat di lapangan UPI Cibiru pada hari Selasa dan Kamis",
+    name: "Basket",
     img: basket,
   },
   {
-    id: "feedback-2",
-    content: "You can keep using your favorite card and keepgetting rewards.",
-    name: "Get Reward",
+    id: "bidang-2",
+    content: "Bertempat di lapangan UPI Cibiru pada hari Selasa dan Jum'at",
+    name: "Tarung Derajat",
     img: fist,
   },
   {
-    id: "feedback-3",
-    content:
-      "You will only be charged when selling goods or requesting payment.",
-    name: "No Hidden Fees",
+    id: "bidang-3",
+    content: "Bertempat di Gelanggang Olahraga pada hari Selasa dan Jum'at",
+    name: "Badminton",
     img: shuttlecock,
   },
   {
-    id: "feedback-3",
-    content: "Changed your mind after buying? Send back the item you purchased",
-    name: "Free shipping",
+    id: "bidang-4",
+    content: "Bertempat di lapangan UPI Cibiru pada hari Senin dan Jum'at",
+    name: "Voli",
     img: volley,
   },
   {
-    id: "feedback-3",
-    content: "Changed your mind after buying? Send back the item you purchased",
-    name: "Free shipping",
+    id: "bidang-5",
+    content: "Bertempat di lapangan UPI Cibiru pada hari Senin dan Rabu",
+    name: "Futsal",
     img: soccer,
   },
 ];

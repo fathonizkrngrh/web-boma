@@ -3,11 +3,12 @@ import logo from "./assets/logo/logo.png";
 import Navbar from "./components/NavBar";
 import Home from "./pages/Home";
 import Soon from "./pages/ComingSoon";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="w-full overflow-hidden block">
-      <Navbar logo={logo}></Navbar>
+      <Navbar logo={logo} />
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
@@ -17,6 +18,7 @@ function App() {
           <Route path="/kegiatan" element={<Soon page="Kegiatan" />} />
         </Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

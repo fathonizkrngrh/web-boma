@@ -11,9 +11,8 @@ const Home = () => {
   return (
     <div>
       <Hero></Hero>
-      <TentangBoma tentangBoma={data.tentangBoma}></TentangBoma>
       <Bidang></Bidang>
-      <div className="h-[1000px] bg-main"></div>
+      <TentangBoma tentangBoma={data.tentangBoma}></TentangBoma>
     </div>
   );
 };

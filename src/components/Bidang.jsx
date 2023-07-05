@@ -7,7 +7,7 @@ import CardBidang from "./CardBidang";
 const Bidang = () => {
   return (
     <section
-      className={`bg-[#eeedf0] block items-center py-14  max-ss:px-6 max-[1060px]:text-center`}
+      className={`bg-[#eeedf0] block items-center lg:py-20 py-14  max-ss:px-6 max-[1060px]:text-center`}
     >
       <div className="max-w-7xl mx-auto   lg:px-12 px-8">
         <div className="block justify-center items-center sm:mb-16 mb-6 relative z-[1] text-center ">
@@ -33,7 +33,9 @@ const Bidang = () => {
               <p
                 className={` font-larsseit max-lg:text-[14px] max-[1060px]:justify-center mt-5 text-[#10101088] tracking-wide`}
               >
-                5 Bidang olahraga yang dinaungi oleh BOMA
+                5 Bidang olahraga yang dinaungi oleh
+                <br />
+                Badan Olahraga Mahasiswa UPI Kampus Cibiru
               </p>
             </div>
           </motion.div>

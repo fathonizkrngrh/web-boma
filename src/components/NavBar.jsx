@@ -12,14 +12,14 @@ const Navbar = ({ logo }) => {
       <div className="max-w-7xl mx-auto ">
         <div className="flex items-center justify-between h-20 ">
           {/* Logo */}
-          <div className="flex-shrink-0 ">
+          <a className="flex-shrink-0 " href="/">
             <img className="h-14 w-auto" src={logo} alt="Logo Boma" />
-          </div>
+          </a>
 
           {/* Navigation buttons */}
           <div className="hidden md:block">
             <div className="ml-4 flex items-center md:ml-6">
-              <div className="space-x-4">
+              <div className="space-x-4 text-slate-600">
                 <a
                   href="/"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
@@ -120,7 +120,7 @@ const Navbar = ({ logo }) => {
             Tentang Kami
           </a>
           <a
-            href="/"
+            href="/pengurus"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Pengurus
