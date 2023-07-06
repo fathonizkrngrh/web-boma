@@ -1,9 +1,6 @@
 import {
   basket,
   fist,
-  shuttlecock,
-  volley,
-  soccer,
   wahdini,
   jodi,
   serli,
