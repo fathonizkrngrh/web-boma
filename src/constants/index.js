@@ -47,39 +47,54 @@ export const bidangs = [
 
 export const pengurus = [
   {
-    nama: "Wahdini",
-    jabatan: "Ketua",
-    prodi: "PGSD 20",
-    img: wahdini,
+    jabatan: "Ketua dan Wakil",
+    anggota: [
+      {
+        nama: "Wahdini",
+        jabatan: "Ketua",
+        prodi: "PGSD 20",
+        img: wahdini,
+      },
+      {
+        nama: "Jodi",
+        jabatan: "Wakil Ketua",
+        prodi: "RPL 21",
+        img: jodi,
+      },
+    ],
   },
   {
-    nama: "Jodi",
-    jabatan: "Wakil Ketua",
-    prodi: "RPL 21",
-    img: jodi,
+    jabatan: "Sekretaris",
+    anggota: [
+      {
+        nama: "Serli",
+        jabatan: "Sekretaris 1",
+        prodi: "PGSD 21",
+        img: serli,
+      },
+      {
+        nama: "Jessica",
+        jabatan: "Sekretaris 2",
+        prodi: "PGSD 20",
+        img: jessi,
+      },
+    ],
   },
   {
-    nama: "Serli",
-    jabatan: "Sekretaris 1",
-    prodi: "PGSD 21",
-    img: serli,
-  },
-  {
-    nama: "Jessica",
-    jabatan: "Sekretaris 2",
-    prodi: "PGSD 20",
-    img: jessi,
-  },
-  {
-    nama: "Caca",
-    jabatan: "Bendahara 1",
-    prodi: "PGSD 20",
-    img: caca,
-  },
-  {
-    nama: "Gustin",
-    jabatan: "Bendahara 2",
-    prodi: "PGSD 21",
-    img: gustin,
+    jabatan: "Bendahara",
+    anggota: [
+      {
+        nama: "Caca",
+        jabatan: "Bendahara 1",
+        prodi: "PGSD 20",
+        img: caca,
+      },
+      {
+        nama: "Gustin",
+        jabatan: "Bendahara 2",
+        prodi: "PGSD 21",
+        img: gustin,
+      },
+    ],
   },
 ];

@@ -3,22 +3,18 @@ import React from "react";
 const CardPengurus = ({ nama, jabatan, prodi, img }) => {
   return (
     <div>
-      <div className="flex justify-between flex-col  pt-12 rounded-[20px]  max-w-80 md:mx-4 sm:mx-2 mx-0 my-5 feedback-card transition ease-in-out delay-150 duration-700 bg-white hover:text-white">
-        <img
-          src={img}
-          alt="icons"
-          className=" ml-8 w-[60px] h-[55px] py-2 bg-white rounded-xl"
-        />
-        <div className="px-11 mt-10">
-          <h4 className="text-left font-larsseit font-bold text-[25px] leading-[32px] ">
-            {nama}
-          </h4>
-          <p className="max-w-[200px] text-left font-larsseit font-normal text-[15px] leading-[32.4px]  my-5">
-            {jabatan}
-          </p>
-          <p className="max-w-[200px] text-left font-larsseit font-normal text-[15px] leading-[32.4px]  my-5">
-            {prodi}
-          </p>
+      <div className="flex justify-between flex-col md:w-48 lg:w-64 w-36 rounded-[20px]   md:mx-4 sm:mx-2 mx-2 my-5 pengurus-card bg-white ">
+        <div className="w-full  rounded-[20px] overflow-hidden">
+          <img
+            class="object-cover w-full lg:h-96 h-72 rounded-[20px] duration-700 transition ease-in-out delay-150"
+            src={img}
+            alt="Sunset in the mountains"
+          />
+        </div>
+        <div class="px-6 py-4 text-center">
+          <div class="font-bold text-xl mb-2">{nama}</div>
+          <p class="text-main ">{jabatan}</p>
+          <p class="text-gray-700 ">{prodi}</p>
         </div>
       </div>
     </div>
