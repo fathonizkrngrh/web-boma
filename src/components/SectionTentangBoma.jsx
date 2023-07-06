@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo/logo.png";
 
-const TentangBoma = ({ tentangBoma }) => {
+const SectionTentangBoma = ({ tentangBoma }) => {
   return (
     <section className="w-full bg-main">
       <div className="flex max-w-7xl mx-auto lg:py-32 py-28  lg:px-12 px-8 ">
@@ -19,4 +19,4 @@ const TentangBoma = ({ tentangBoma }) => {
   );
 };
 
-export default TentangBoma;
+export default SectionTentangBoma;

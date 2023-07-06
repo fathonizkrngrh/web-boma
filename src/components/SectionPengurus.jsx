@@ -7,7 +7,7 @@ import { pengurus } from "../constants";
 const PengurusSection = () => {
   return (
     <section
-      className={`bg-[#eeedf0] block items-center lg:py-8 py-8  max-ss:px-6 max-[1060px]:text-center`}
+      className={`bg-main block items-center lg:py-8 py-8  max-ss:px-6 max-[1060px]:text-center`}
     >
       {pengurus.map((jabatan) => (
         <div key={jabatan.nama} {...jabatan} className=" mx-auto  mt-10">
@@ -19,7 +19,7 @@ const PengurusSection = () => {
               viewport={{ once: true, amount: 0.25 }}
             >
               <h2
-                className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px] text-[#101010]  font-medium tracking-wide justify-center w-1/2 mx-auto`}
+                className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px] text-white  font-medium tracking-wide justify-center w-1/2 mx-auto`}
               >
                 {jabatan.jabatan}
               </h2>

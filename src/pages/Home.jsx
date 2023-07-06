@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
-import TentangBoma from "../components/SectionTentangBoma";
-import Bidang from "../components/Bidang";
+import SectionTentangBoma from "../components/SectionTentangBoma";
+import Bidang from "../components/SectionBidang";
 
 import heroImage from "../assets/landingPage/landing.png";
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
         />
       </div>
       <Bidang></Bidang>
-      <TentangBoma tentangBoma={data.tentangBoma}></TentangBoma>
+      <SectionTentangBoma tentangBoma={data.tentangBoma}></SectionTentangBoma>
     </div>
   );
 };

@@ -44,8 +44,10 @@ import taufik from "./pengurus/taufik.png";
 import umar from "./pengurus/umar.png";
 
 import bg from "./bg.png";
+import logo from "./logo/logo.png";
 
 export {
+  logo,
   bg,
   basket,
   fist,

@@ -233,10 +233,10 @@ export const pengurus = [
         img: abdi,
       },
       {
-        nama: "Taufik",
+        nama: "Farha",
         jabatan: "Anggota",
-        prodi: "TEKKOM 20",
-        img: taufik,
+        prodi: "PGSD 22",
+        img: farha,
       },
       {
         nama: "Farhan",
@@ -245,10 +245,10 @@ export const pengurus = [
         img: farhan,
       },
       {
-        nama: "Farha",
+        nama: "Taufik",
         jabatan: "Anggota",
-        prodi: "PGSD 22",
-        img: farha,
+        prodi: "TEKKOM 20",
+        img: taufik,
       },
     ],
   },
@@ -296,17 +296,18 @@ export const pengurus = [
         prodi: "RPL 21",
         img: umar,
       },
-      {
-        nama: "Dzakkir",
-        jabatan: "Tarung Derajat",
-        prodi: "RPL 22",
-        img: dzakkir,
-      },
+
       {
         nama: "Sya'iq",
         jabatan: "Voli",
         prodi: "RPL 22",
         img: syaiq,
+      },
+      {
+        nama: "Dzakkir",
+        jabatan: "Tarung Derajat",
+        prodi: "RPL 22",
+        img: dzakkir,
       },
     ],
   },
@@ -337,5 +338,24 @@ export const misi = [
     number: 4,
     content:
       "Menciptakan suasana kerja yang harmonis dan penuh persahabatan untuk mendukung serta menciptakan sinergi, kekompakan, serta sportifitas dalam berkarya pada Unit Kegiatan Mahasiswa BOMA.",
+  },
+];
+
+export const filosofiLogo = [
+  {
+    logo: "Segi Lima",
+    arti: "Bahwa UKM BOMA memegang asas Pancasila.",
+  },
+  {
+    logo: "Lima Lingkaran Terhubung",
+    arti: "Bahwa BOMA memiliki cabang olahraga yang saling berhubungan dan saling mendukung serta saling bersahabat antar cabang anggota BOMA",
+  },
+  {
+    logo: "Logo UPI",
+    arti: "Bahwa UKM BOMA mewadahi minat dan bakat mahasiswa Universitas Pendidikan Indonesia Kampus Cibiru dalam bidang olahraga",
+  },
+  {
+    logo: "Pita",
+    arti: "Bahwa UKM BOMA sebagai wadah untuk mengembangkan kreativitasnya dalam kegiatan keolahragaan untuk mengharumkan nama baik Universitas Pendidikan Indonesia Kampus Cibiru.",
   },
 ];
