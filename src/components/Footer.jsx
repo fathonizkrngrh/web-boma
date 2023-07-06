@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <section className="flex-col bg-white max-w-7xl  sticky bottom-0  max-h-full mx-auto lg:pt-24 pt-16  lg:px-12 px-8">
+      <section className="flex-col bg-white max-w-7xl    max-h-full mx-auto lg:pt-24 pt-16  lg:px-12 px-8">
         <div className="max-[960px]:flex-col flex w-full">
           <div className="lg:w-1/2 w-full flex-col">
             <p className="font-medium lg:text-xl text-sm lg:text-left text-center">

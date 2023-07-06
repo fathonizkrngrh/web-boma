@@ -1,8 +1,9 @@
 import React from "react";
 import Hero from "../components/Hero";
-import TentangBoma from "../components/TentangBoma";
+import TentangBoma from "../components/SectionTentangBoma";
 import Bidang from "../components/Bidang";
 
+import heroImage from "../assets/landingPage/landing.png";
 const Home = () => {
   const data = {
     tentangBoma:
@@ -10,7 +11,18 @@ const Home = () => {
   };
   return (
     <div>
-      <Hero></Hero>
+      <Hero
+        title="UPI KAMPUS CIBIRU"
+        subtitle="Official Website"
+        img={true}
+      ></Hero>
+      <div className="z-10 mt-2 w-full ">
+        <img
+          className=" object-cover w-full min-h-[200px]"
+          src={heroImage}
+          alt="hero"
+        />
+      </div>
       <Bidang></Bidang>
       <TentangBoma tentangBoma={data.tentangBoma}></TentangBoma>
     </div>

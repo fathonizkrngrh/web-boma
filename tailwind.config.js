@@ -9,6 +9,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('../src/assets/bg.png')",
+        card: "url('../src/assets/card-bg.png')",
       },
     },
   },

@@ -1,11 +1,11 @@
 import React from "react";
-import HeroPengurus from "../components/HeroPengurus";
 import PengurusSection from "../components/PengurusSection";
+import Hero from "../components/Hero";
 
 const Pengurus = () => {
   return (
     <div>
-      <HeroPengurus periode={"2023 - 2024"} />
+      <Hero title="KEPENGURUSAN" subtitle="2023 - 2024" />
       <PengurusSection />
     </div>
   );

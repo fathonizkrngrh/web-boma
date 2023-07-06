@@ -154,7 +154,7 @@ export const pengurus = [
     ],
   },
   {
-    jabatan: "Departemen Medinfo",
+    jabatan: "Departemen Media dan Informasi",
     anggota: [
       {
         nama: "Fathoni",
@@ -309,5 +309,33 @@ export const pengurus = [
         img: syaiq,
       },
     ],
+  },
+];
+
+export const visi = {
+  title: "Visi",
+  content:
+    "Menjadi Unit Kegitatan Mahasiswa yang mandiri yang senantiasa menumbuhkembangkan dan meningkatkan prestasi olahraga Mahasiswa UPI Kampus Cibiru dengan mengedepankan etika, moral, dan taat hukum serta sportifitas melalui pembinaan dan pengembangan sumber daya manusia secara terencana dan berkesinambungan.",
+};
+
+export const misi = [
+  {
+    number: 1,
+    content:
+      "Memberikan dukungan kepada para atlet mahasiswa untuk mencapai puncak prestasi dan menanamkan nilai-nilai keolahragaan agar menjadi sumber inspirasi bagi seluruh mahasiswa.",
+  },
+  {
+    number: 2,
+    content:
+      "Penciptaan kerjasama dan optimalisasi hubungan internal dan eksternal dengan Unit Kegiatan Mahasiswa serta organisasi-organisasi terkait untuk mendukung eksistensi Unit Kegiatan Mahasiswa Badan Olahraga Mahasiswa Universitas Pendidikan Kampus Cibiru.",
+  },
+  {
+    number: 3,
+    content: "Mempersiapkan program kerja yang jelas.",
+  },
+  {
+    number: 4,
+    content:
+      "Menciptakan suasana kerja yang harmonis dan penuh persahabatan untuk mendukung serta menciptakan sinergi, kekompakan, serta sportifitas dalam berkarya pada Unit Kegiatan Mahasiswa BOMA.",
   },
 ];
