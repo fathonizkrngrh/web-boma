@@ -305,7 +305,7 @@ export const pengurus = [
       {
         nama: "Sya'iq",
         jabatan: "Voli",
-        prodi: "TEKKOM 22",
+        prodi: "RPL 22",
         img: syaiq,
       },
     ],

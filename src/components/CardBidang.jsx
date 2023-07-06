@@ -6,7 +6,7 @@ const CardBidang = ({ content, name, img }) => {
       <img
         src={img}
         alt="icons"
-        className="  w-20 py-2 mx-auto bg-white rounded-xl"
+        className="  w-20 p-2 mx-auto bg-white rounded-xl"
       />
       <div className="px-10 mt-10 text-center">
         <h4 className=" font-larsseit font-bold text-[25px] leading-[32px] ">

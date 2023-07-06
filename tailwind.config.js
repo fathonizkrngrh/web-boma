@@ -7,6 +7,9 @@ module.exports = {
       colors: {
         main: "#0C4387",
       },
+      backgroundImage: {
+        hero: "url('../src/assets/bg.png')",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

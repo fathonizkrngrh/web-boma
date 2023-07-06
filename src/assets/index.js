@@ -43,7 +43,10 @@ import syaiq from "./pengurus/sya'iq.png";
 import taufik from "./pengurus/taufik.png";
 import umar from "./pengurus/umar.png";
 
+import bg from "./bg.png";
+
 export {
+  bg,
   basket,
   fist,
   badminton,
