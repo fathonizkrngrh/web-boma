@@ -6,13 +6,13 @@ const CardBidang = ({ content, name, img }) => {
       <img
         src={img}
         alt="icons"
-        className=" ml-8 w-[60px] h-[55px] py-2 bg-white rounded-xl"
+        className="  w-20 py-2 mx-auto bg-white rounded-xl"
       />
-      <div className="px-11 mt-10">
-        <h4 className="text-left font-larsseit font-bold text-[25px] leading-[32px] ">
+      <div className="px-10 mt-10 text-center">
+        <h4 className=" font-larsseit font-bold text-[25px] leading-[32px] ">
           {name}
         </h4>
-        <p className="max-w-[200px] text-left font-larsseit font-normal text-[15px] leading-[32.4px]  my-5">
+        <p className="max-w-[200px]  font-larsseit font-normal text-[15px] leading-[32.4px]  my-5">
           {content}
         </p>
       </div>

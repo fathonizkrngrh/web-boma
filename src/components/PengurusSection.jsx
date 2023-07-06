@@ -7,52 +7,38 @@ import { pengurus } from "../constants";
 const PengurusSection = () => {
   return (
     <section
-      className={`bg-[#eeedf0] block items-center lg:py-20 py-14  max-ss:px-6 max-[1060px]:text-center`}
+      className={`bg-[#eeedf0] block items-center lg:py-8 py-8  max-ss:px-6 max-[1060px]:text-center`}
     >
-      <div className="max-w-7xl mx-auto   lg:px-12 px-8">
-        <div className="block justify-center items-center sm:mb-16 mb-6 relative z-[1] text-center ">
-          <motion.div
-            variants={sectionVariant}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.25 }}
-          >
-            <h2
-              className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px] text-[#101010]  font-medium tracking-wide justify-center`}
+      {pengurus.map((jabatan) => (
+        <div key={jabatan.nama} {...jabatan} className=" mx-auto  mt-10">
+          <div className="block justify-center items-center sm:mb-16 mb-6 relative z-[1] text-center ">
+            <motion.div
+              variants={sectionVariant}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.25 }}
             >
-              Bidang Olahraga
-            </h2>
-          </motion.div>
+              <h2
+                className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px] text-[#101010]  font-medium tracking-wide justify-center w-1/2 mx-auto`}
+              >
+                {jabatan.jabatan}
+              </h2>
+            </motion.div>
+          </div>
           <motion.div
             variants={sectionVariant}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, amount: 0.25 }}
+            viewport={{ once: true, amount: 0.12 }}
           >
-            <div className="w-full md:mt-0 mt-6">
-              <p
-                className={` font-larsseit max-lg:text-[14px] max-[1060px]:justify-center mt-5 text-[#10101088] tracking-wide`}
-              >
-                5 Bidang olahraga yang dinaungi oleh
-                <br />
-                Badan Olahraga Mahasiswa UPI Kampus Cibiru
-              </p>
+            <div className="flex flex-wrap  justify-center  w-full feedback-container relative z-[1]">
+              {jabatan.anggota.map((card) => (
+                <CardPengurus key={card.id} {...card} />
+              ))}
             </div>
           </motion.div>
         </div>
-        <motion.div
-          variants={sectionVariant}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.12 }}
-        >
-          <div className="flex flex-wrap  justify-center  w-full feedback-container relative z-[1]">
-            {pengurus[0].anggota.map((card) => (
-              <CardPengurus key={card.id} {...card} />
-            ))}
-          </div>
-        </motion.div>
-      </div>
+      ))}
     </section>
   );
 };
