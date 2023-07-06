@@ -4,7 +4,8 @@ const CardPengurus = ({ nama, jabatan, prodi, img }) => {
   return (
     <div>
       <div className="flex justify-between flex-col md:w-48 lg:w-64 w-36 rounded-[20px]   md:mx-4 sm:mx-2 mx-2 my-5 pengurus-card bg-white ">
-        <div className="w-full  rounded-[20px] overflow-hidden bg-gradient-to-b from-[#97B8FC] to-white">
+        <div className="w-full  rounded-[20px] overflow-hidden bg-cover bg-card">
+          {/* <div className="w-full  rounded-[20px] overflow-hidden bg-gradient-to-b from-[#97B8FC] to-white"> */}
           <img
             class="object-cover w-full lg:h-96 h-72 rounded-[20px] duration-700 transition ease-in-out delay-150"
             src={img}
