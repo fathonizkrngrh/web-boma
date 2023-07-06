@@ -1,23 +1,21 @@
 import React from "react";
 
-import heroImage from "../assets/landingPage/landing.png";
-
-function Hero() {
+const HeroPengurus = ({ periode }) => {
   return (
     <div>
       <div className="relative lg:pt-40 pt-32 lg:py-10 py-6 max-w-7xl mx-auto lg:px-4 px-8">
         <div className="">
           <div className="flex">
             <p className="sm:text-lg md:text-xl lg:text-2xl text-md">
-              Badan Olahraga Mahasiswa
+              Pengurus
             </p>
             <div className="bg-main md:lg-1 lg:h-1.5 h-0.5 sm:w-7 md:w-10 lg:w-12 w-5 lg:ml-4 ml-2 my-auto"></div>
           </div>
-          <p className="text-main md:text-6xl lg:text-8xl text-5xl font-bold">
-            UPI KAMPUS CIBIRU
+          <p className="text-main md:text-4xl lg:text-6xl text-3xl font-bold">
+            BADAN OLAHRAGA MAHASISWA
           </p>
-          <p className="text-black md:text-2xl lg:text-4xl text-xl font-bold">
-            Official Website
+          <p className="text-black md:text-4xl lg:text-6xl text-3xl font-bold">
+            {periode}
           </p>
         </div>
         <div className="absolute -top-20 right-0 -z-10">
@@ -28,11 +26,8 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="z-10 mt-2">
-        <img className="w-full" src={heroImage} alt="hero" />
-      </div>
     </div>
   );
-}
+};
 
-export default Hero;
+export default HeroPengurus;

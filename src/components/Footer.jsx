@@ -27,15 +27,19 @@ const Footer = () => {
           <div className="lg:w-1/2  flex-col ">
             <div className="lg:mt-0  mt-10  lg:text-right text-center ">
               <p className="font-medium lg:text-xl text-sm t">Contact Person</p>
-              <p className="text-lg mt-4">Email : bomaupicibiru@gmail.com</p>
-              <p className="text-lg mt-2">
+              <p className="lg:text-lg text-sm mt-4">
+                Email : bomaupicibiru@gmail.com
+              </p>
+              <p className="lg:text-lg text-sm mt-2">
                 Whatsapp : +62 85795701564 (Wahdini)
               </p>
-              <p className="text-lg mt-2">Instagram : @bomaupicibiru</p>
+              <p className="lg:text-lg text-sm mt-2">
+                Instagram : @bomaupicibiru
+              </p>
             </div>
           </div>
         </div>
-        <div className="w-full text-center lg:mt-12 mt-8 py-4">
+        <div className="w-full text-center lg:text-lg text-xs lg:mt-12 mt-8 py-4">
           <p>©️ Copyright 2023 Departement Medinfo BOMA 2023</p>
         </div>
       </section>
