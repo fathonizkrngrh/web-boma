@@ -359,3 +359,9 @@ export const filosofiLogo = [
     arti: "Bahwa UKM BOMA sebagai wadah untuk mengembangkan kreativitasnya dalam kegiatan keolahragaan untuk mengharumkan nama baik Universitas Pendidikan Indonesia Kampus Cibiru.",
   },
 ];
+
+export const urlInstagramFeed = [
+  "https://www.instagram.com/p/CrXaQo8vpZQ/",
+  "https://www.instagram.com/p/CqhDdiFv6lu/",
+  "https://www.instagram.com/p/CqFRokDPsUz/",
+];

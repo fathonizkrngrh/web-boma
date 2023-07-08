@@ -23,6 +23,9 @@
     background: rgba(12, 67, 135, 0.8);
     box-shadow: 0 25px 50px -12px rgba(12, 67, 135, 0.2);
   }
+  .feedback-card:hover > img {
+    background: white;
+  }
 
   .pengurus-card:hover > .w-full > img {
     transform: scale(1.1);

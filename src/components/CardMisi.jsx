@@ -2,7 +2,7 @@ import React from "react";
 
 const CardMisi = ({ content, number }) => {
   return (
-    <div className="flex justify-between flex-col  py-auto rounded-[20px] w-full mt-4  max-w-48 md:mx-4 sm:mx-2 mx-0  bg-cover bg-card  ">
+    <div className="flex justify-between flex-col  py-auto rounded-[20px] w-full mt-4  max-w-48 md:mx-4 sm:mx-2 mx-0  bg-cover bg-card  hover:scale-110  duration-700 transition ease-in-out delay-150">
       <div className=" bg-main rounded-full mx-auto p-2 w-10 mt-5 h-10">
         <p className="text-white text-center text-md font-bold ">{number}</p>
       </div>

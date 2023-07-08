@@ -13,6 +13,12 @@ const SectionTentangBoma = ({ tentangBoma }) => {
             Tentang <span className="text-white font-bold">BOMA</span>
           </p>
           <p className="font-normal text-justify mt-6">{tentangBoma}</p>
+
+          <a href="/tentang-kami">
+            <div className="mt-5 bg-white w-fit rounded-sm px-2 py-1 hover:bg-slate-200">
+              <p className="text-main font-medium">Kenali Kami Lebih Dalam!</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>

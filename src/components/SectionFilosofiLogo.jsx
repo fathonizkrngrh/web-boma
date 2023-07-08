@@ -2,15 +2,25 @@ import React from "react";
 import { logo } from "../assets";
 import { filosofiLogo } from "../constants";
 import { motion } from "framer-motion";
-import { textVariant2, textVariant3 } from "../utils/motion";
+import { textVariant2, textVariant3, sectionVariant } from "../utils/motion";
 
 const SectionFilosofiLogo = () => {
   return (
     <section className="w-full bg-white max-w-7xl mx-auto lg:py-32 py-28  lg:px-12 px-8  ">
-      <div className="lg:mb-0 mb-10 w-fit mx-auto">
-        <p className="font-medium tracking-wide lg:text-4xl text-2xl ">
-          Filosofi Logo
-        </p>
+      <div className=" text-center w-fit mx-auto">
+        <motion.div
+          variants={sectionVariant}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+        >
+          <h2
+            className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px]   font-medium tracking-wide justify-center`}
+          >
+            Filosofi Logo
+          </h2>
+          <div className="bg-[#97B8FC] rou h-1.5 w-full my-auto mx-auto rounded-lg"></div>
+        </motion.div>
       </div>
       <div className="flex flex-wrap lg:mt-0 mt-10 ">
         <div className="lg:w-1/2 w-full  my-auto mx-auto">
