@@ -8,18 +8,18 @@ const Navbar = ({ logo }) => {
   };
 
   return (
-    <nav className="bg-white bg-opacity-90 py-2 sticky top-0 z-50 lg:px-4 px-8 ">
+    <div className=" bg-white bg-opacity-90 lg:py-2 py-0.5 sticky top-0 z-50 lg:px-4 px-8 ">
       <div className="max-w-7xl mx-auto ">
         <div className="flex items-center justify-between h-20 ">
           {/* Logo */}
-          <div className="flex-shrink-0 ">
+          <a className="flex-shrink-0 " href="/">
             <img className="h-14 w-auto" src={logo} alt="Logo Boma" />
-          </div>
+          </a>
 
           {/* Navigation buttons */}
           <div className="hidden md:block">
             <div className="ml-4 flex items-center md:ml-6">
-              <div className="space-x-4">
+              <div className="space-x-4 text-slate-600">
                 <a
                   href="/"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
@@ -27,25 +27,25 @@ const Navbar = ({ logo }) => {
                   Beranda
                 </a>
                 <a
-                  href="/"
+                  href="/tentang-kami"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Tentang Kami
                 </a>
                 <a
-                  href="/"
+                  href="/pengurus"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Pengurus
                 </a>
                 <a
-                  href="/"
+                  href="/artikel"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Artikel
                 </a>
                 <a
-                  href="/"
+                  href="/kegiatan"
                   className=" hover:bg-main hover:text-white px-3 py-2 rounded-md text-lg font-normal"
                 >
                   Kegiatan
@@ -103,10 +103,14 @@ const Navbar = ({ logo }) => {
 
       {/* Responsive menu */}
       <div
-        className={`${isMenuOpen ? "block" : "hidden"} md:hidden`}
+        className={`${
+          isMenuOpen
+            ? "z-50 fixed bg-white bg-opacity-90 right-0 text-right"
+            : "hidden"
+        } md:hidden`}
         id="mobile-menu"
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="px-2 pt-1 pb-2 space-y-1 sm:px-3">
           <a
             href="/"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
@@ -114,32 +118,32 @@ const Navbar = ({ logo }) => {
             Beranda
           </a>
           <a
-            href="/"
+            href="/tentang-kami"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Tentang Kami
           </a>
           <a
-            href="/"
+            href="/pengurus"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Pengurus
           </a>
           <a
-            href="/"
+            href="/artikel"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Artikel
           </a>
           <a
-            href="/"
+            href="/kegiatan"
             className=" hover:bg-main hover:text-white block px-3 py-2 rounded-md text-base font-normal"
           >
             Kegiatan
           </a>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

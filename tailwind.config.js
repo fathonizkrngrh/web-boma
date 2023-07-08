@@ -7,6 +7,10 @@ module.exports = {
       colors: {
         main: "#0C4387",
       },
+      backgroundImage: {
+        hero: "url('../src/assets/bg.png')",
+        card: "url('../src/assets/card-bg.png')",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],
