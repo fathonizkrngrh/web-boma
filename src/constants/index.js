@@ -160,7 +160,7 @@ export const pengurus = [
     ],
   },
   {
-    jabatan: "Departemen Media dan Informasi",
+    jabatan: "Departemen  Media dan Informasi",
     anggota: [
       {
         nama: "Fathoni",

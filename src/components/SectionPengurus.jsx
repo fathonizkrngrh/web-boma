@@ -10,7 +10,7 @@ const PengurusSection = () => {
       className={`bg-main block items-center lg:py-8 py-8  max-ss:px-6 max-[1060px]:text-center`}
     >
       {pengurus.map((jabatan) => (
-        <div key={jabatan.nama} {...jabatan} className=" mx-auto  my-20">
+        <div key={jabatan.nama} {...jabatan} className="w-full mx-auto my-20">
           <div className="block justify-center items-center sm:mb-16 mb-6 relative z-[1] text-center ">
             <motion.div
               variants={sectionVariant}
@@ -18,13 +18,18 @@ const PengurusSection = () => {
               whileInView="show"
               viewport={{ once: true, amount: 0.25 }}
             >
-              <h2
-                className={`flex text-[32px] max-lg:text-[32px] max-ss:text-[32px] max-[490px]:text-[30px] text-white  font-medium tracking-wide justify-center w-1/2 mx-auto`}
-              >
-                {jabatan.jabatan}
-              </h2>
+              <div className="flex max-w-7xl  mx-auto">
+                <div className="bg-white h-1.5 lg:w-1/3 w-0 my-auto mx-auto rounded-lg" />
+                <h2
+                  className={`flex text-[48px] max-lg:text-[48px] max-ss:text-[32px] max-[490px]:text-[30px] px-5 text-white uppercase font-bold tracking-wide justify-center lg:w-1/2 w-3/4 mx-auto`}
+                >
+                  {jabatan.jabatan}
+                </h2>
+                <div className="bg-white h-1.5 lg:w-1/3 w-0 my-auto mx-auto rounded-lg" />
+              </div>
             </motion.div>
           </div>
+
           <motion.div
             variants={sectionVariant}
             initial="hidden"
