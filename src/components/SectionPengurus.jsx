@@ -10,7 +10,7 @@ const PengurusSection = () => {
       className={`bg-main block items-center lg:py-8 py-8  max-ss:px-6 max-[1060px]:text-center`}
     >
       {pengurus.map((jabatan) => (
-        <div key={jabatan.nama} {...jabatan} className=" mx-auto  mt-10">
+        <div key={jabatan.nama} {...jabatan} className=" mx-auto  my-20">
           <div className="block justify-center items-center sm:mb-16 mb-6 relative z-[1] text-center ">
             <motion.div
               variants={sectionVariant}

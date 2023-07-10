@@ -43,10 +43,27 @@ import syaiq from "./pengurus/sya'iq.png";
 import taufik from "./pengurus/taufik.png";
 import umar from "./pengurus/umar.png";
 
+import feed1 from "./feeds/feed1.webp";
+import feed2 from "./feeds/feed2.webp";
+import feed3 from "./feeds/feed3.jpg";
+import feed4 from "./feeds/feed4.jpg";
+import feed5 from "./feeds/feed5.jpg";
+import feed6 from "./feeds/feed6.jpg";
+
 import bg from "./bg.png";
 import logo from "./logo/logo.png";
+import upi from "./logo/upi.png";
+import jargon from "./logo/jargon.png";
 
 export {
+  jargon,
+  upi,
+  feed1,
+  feed2,
+  feed3,
+  feed4,
+  feed5,
+  feed6,
   logo,
   bg,
   basket,

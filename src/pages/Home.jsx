@@ -23,6 +23,11 @@ const Home = () => {
           alt="hero"
         />
       </div>
+      <div className="w-full">
+        <div>
+          <p>"Sehatkan Badanmu, Banggakan Kampusmu, Salam Olahraga"</p>
+        </div>
+      </div>
       <Bidang></Bidang>
       <SectionTentangBoma tentangBoma={data.tentangBoma}></SectionTentangBoma>
     </div>

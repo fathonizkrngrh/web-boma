@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { jargon, upi } from "../assets";
 
 const Navbar = ({ logo }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -12,12 +13,17 @@ const Navbar = ({ logo }) => {
       <div className="max-w-7xl mx-auto ">
         <div className="flex items-center justify-between h-20 ">
           {/* Logo */}
-          <a className="flex-shrink-0 " href="/">
-            <img className="h-14 w-auto" src={logo} alt="Logo Boma" />
+          <a className="flex" href="/">
+            <img className="lg:h-12 h-10 w-auto" src={logo} alt="Logo Boma" />
+            <img
+              className="ml-2 lg:h-12 h-10 w-auto"
+              src={jargon}
+              alt="Jargon"
+            />
           </a>
 
           {/* Navigation buttons */}
-          <div className="hidden md:block">
+          <div className="hidden md:block justify-center">
             <div className="ml-4 flex items-center md:ml-6">
               <div className="space-x-4 text-slate-600">
                 <a

@@ -36,6 +36,12 @@ import {
   badminton,
   voli,
   futsal,
+  feed2,
+  feed3,
+  feed4,
+  feed5,
+  feed1,
+  feed6,
 } from "../assets";
 
 export const bidangs = [
@@ -360,8 +366,29 @@ export const filosofiLogo = [
   },
 ];
 
-export const urlInstagramFeed = [
-  "https://www.instagram.com/p/CrXaQo8vpZQ/",
-  "https://www.instagram.com/p/CqhDdiFv6lu/",
-  "https://www.instagram.com/p/CqFRokDPsUz/",
+export const feedIg = [
+  {
+    img: feed6,
+    url: "https://www.instagram.com/p/Ct-otBsPH5W/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+  },
+  {
+    img: feed5,
+    url: "https://www.instagram.com/p/CqhDdiFv6lu/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+  },
+  {
+    img: feed4,
+    url: "https://www.instagram.com/p/CqhDYYXvXnJ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+  },
+  {
+    img: feed3,
+    url: "https://www.instagram.com/p/CrXaQo8vpZQ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+  },
+  {
+    img: feed2,
+    url: "https://www.instagram.com/p/CqFRokDPsUz/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+  },
+  {
+    img: feed1,
+    url: "https://www.instagram.com/p/CqFGpKNugPR/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+  },
 ];

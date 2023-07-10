@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { InstagramEmbed } from "react-social-media-embed";
 import { sectionVariant } from "../utils/motion";
-import { urlInstagramFeed } from "../constants";
+import { feedIg } from "../constants";
 
 const SectionInstagram = () => {
   return (
@@ -23,25 +22,26 @@ const SectionInstagram = () => {
             <div className="bg-[#97B8FC] rou h-1.5 w-full my-auto mx-auto rounded-lg"></div>
           </motion.div>
         </div>
-        <div className="flex flex-wrap w-full lg:mt-20 mt-10 mx-auto ">
-          {urlInstagramFeed.map((url) => (
-            <div className="lg:w-1/3  justify-center mx-auto mt-5">
-              <motion.div
-                variants={sectionVariant}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.25 }}
-              >
-                <InstagramEmbed
-                  url={url}
-                  width={326}
-                  height={550}
-                  className="mx-auto"
-                />
-              </motion.div>
-            </div>
-          ))}
-        </div>
+        <motion.div
+          variants={sectionVariant}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+        >
+          <div className="flex flex-wrap w-full lg:mt-20 mt-10 mx-auto justify-center ">
+            {feedIg.map((feed) => (
+              <div className="flex justify-between flex-col lg:w-1/4 w-full md:mx-4 sm:mx-2 mx-0 my-5 overflow-hidden border">
+                <a href={feed.url}>
+                  <img
+                    class="object-cover w-full h-96 hover:scale-110 hover:scale-120 duration-700 transition ease-in-out delay-150"
+                    src={feed.img}
+                    alt="Sunset in the mountains"
+                  />
+                </a>
+              </div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );
