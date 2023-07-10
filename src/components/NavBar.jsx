@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { jargon, upi } from "../assets";
+import { jargon } from "../assets";
 
 const Navbar = ({ logo }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
