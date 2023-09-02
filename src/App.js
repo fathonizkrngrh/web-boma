@@ -6,6 +6,7 @@ import Soon from "./pages/ComingSoon";
 import Footer from "./components/Footer";
 import Pengurus from "./pages/Pengurus";
 import TentangKami from "./pages/TentangKami";
+import Kegiatan from "./pages/Kegiatan";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path="/pengurus" element={<Pengurus />} />
           <Route path="/tentang-kami" element={<TentangKami />} />
           <Route path="/artikel" element={<Soon page="Artikel" />} />
-          <Route path="/kegiatan" element={<Soon page="Kegiatan" />} />
+          <Route path="/kegiatan" element={<Kegiatan />} />
         </Route>
       </Routes>
       <Footer />
